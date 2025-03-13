@@ -18,7 +18,6 @@ export struct SearchBarView {
   @Param
   searchAction?: () => void = () => {
   }
-
   // 回调父组件更新子组件打卡数量
   @Event
   updateClockCount: () => void = () => {
